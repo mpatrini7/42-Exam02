@@ -2,7 +2,7 @@
 
 int	ft_check(char *str, int i, char c)
 {
-	while (--i > 0)
+	while (--i >= 0)
 	{
 		if (str[i] == c)
 			return (1);
